@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lvivdroiddev.cookapp.fragments.FirstCourseFragment">
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/first_courseList"
+        android:background="#6456"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
+</RelativeLayout>
